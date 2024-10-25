@@ -14,7 +14,7 @@ def index():
 @app.route('/deva')
 def newpage1():
    print('Request for index page received')
-   return render_template('<h1>Be Cool</h1>')
+   return "NEW PAGE 001"
 
 @app.route('/favicon.ico')
 def favicon():

@@ -16,6 +16,11 @@ def newpage1():
    print('Request for index page received')
    return "NEW PAGE 001"
 
+@app.route('/25oct24')
+def demooct25():
+   print('Request for index page received')
+   return "October Batch Morning Demo"
+
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'),

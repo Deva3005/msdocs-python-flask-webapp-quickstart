@@ -12,7 +12,7 @@ def index():
    return render_template('index.html')
 
 @app.route('/deva')
-def index():
+def newpage1():
    print('Request for index page received')
    return render_template('<h1>Be Cool</h1>')
 

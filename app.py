@@ -11,10 +11,10 @@ def index():
    print('Request for index page received')
    return render_template('index.html')
 
-@app.route('/06nov24')
+@app.route('/gojo')
 def gojo():
    print('Request for index page received')
-   return render_template('<html><body><img src="https://i.pinimg.com/474x/e5/b1/65/e5b165832a3fcc5140b5ab510e7c1baa.jpg"></body></html>')
+   return render_template('gojo.html')
 
 @app.route('/favicon.ico')
 def favicon():

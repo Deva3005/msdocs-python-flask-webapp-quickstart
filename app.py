@@ -16,10 +16,10 @@ def gojo():
    print('Request for index page received')
    return render_template('gojo.html')
 
-@app.route('/23Nov24')
+@app.route('/class')
 def demopage23n24():
    print('Request for index page received')
-   return render_template('class23.html')
+   return render_template('class.html')
 
 @app.route('/favicon.ico')
 def favicon():
